@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<title>My Photogallery</title>
+<div class="container" style="background-color: lightblue;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Photos</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">A little bit more about me</a>
+</nav>
+<!-- Top menu -->
+<div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-right w3-padding-16"></div>
+      <div class="w3-center w3-padding-16">My Photogallery</div>
+    </div>
+  </div>
+
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="img/IMG_E1778.JPG" alt="Sandwich" style="width:100%">
+      <h3><b>CHEER</b></h3>
+      <p>This is us at our senior night.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/IMG_E1994.JPG" alt="" style="width:100%">
+      <h3><b>CHEER</b></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/IMG_E1779.JPG" alt="Steak" style="width:100%">
+      <h3><b><3</b></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/IMG_E1776.JPG" alt="Pasta and Wine" style="width:100%">
+      <h3><b>My 15!</b></h3>
+      <p></p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="img/IMG_1261.jpg" alt="Salmon" style="width:100%">
+      <h3><b>J Cole</b></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/IMG_E1993.JPG" alt="Salmon" style="width:100%">
+      <h3><b>Willie</b></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/IMG_E1992.JPG" alt="Sandwich" style="width:100%">
+      <h3><b>My sister :)</b></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="img/UTA_1V_blue-orange-rgb.png" alt="Sandwich" style="width:100%">
+      <h3></h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="" alt="" style="width:100%">
+      <h3><b>UTA!!</b></h3>
+      <p><p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+   
+  </div>
+  
+  <hr id="about">
+
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32 w3-center">  
+        <h3>About Me</h3><br>
+        <img src="img/IMG_1903.JPG" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+        <div class="w3-padding-32">
+          <h4><b>This is me!</b></h4>
+          <h6><i>"She might be tiny but she is fierce"</i></h6>
+          <p>Just me, myself and I, exploring the world. I have a heart of love and an interest of having fun and just enjoying the moment. I am 17 years old and I love cheering, I whish I would have joined earlier. I work on the weekends and now I will be attending the University of Texas at Arlington in the fall.   </p>
+        </div>
+      </div>
+      <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>These are a few pictures that have been in my gallery. They all have a special meaning to me.</p>
+      <p>Instagram- jov4nna.65 </p>  
+      <p>Snapchat- jovanna.8384</p> 
+      <p>Email- claudiojovanna@gmail.com</p>  
+    </div>
+  
+    <div class="w3-third">
+  
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+  
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
